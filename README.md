@@ -1,2 +1,5 @@
-# img
-A repo that's designed to allow public hotlinking of images from GitHub
+# 
+
+> *This is a blank branch that is used as a starting point for creating new empty branches from.*
+
+---
