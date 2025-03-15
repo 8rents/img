@@ -24,31 +24,37 @@
 
 ## Branches
 
-This repo has one primary branch that is used to share all image media.
-A system for tracking an images lineage for each sucessive edit from creation or download to each iterative permutation. And of course, why this is such a cool idea that you would want to trouble yourself with this comprehensive system
+This repo has one primary branch (`s` branch, short for "share") that is used to host and share all image media. 
 
 
 ### Primary Branch
 
-- **`share`** - The main branch used to share images publicly so they can be hot linked.
+- **`s` (share) [primary]** - The main branch used to share & host images publicly so they can be hot linked.
 
 ### Other Branches
 
 The other two branches which will be much less used than `share` are:
 
-- **`private`** - A branch that is used to host images privately so they are not public and can not be hot linked. 
-- **`blank`** - A tempalte branch that is used to create new blank branches.
+- **`e` (edit)** - A branch that is used to host host all edit filetypes like `.psd` files or `.ai` files
+- **`b` (blank)** - A tempalte branch that is used to create new blank branches. Contains only a `README.md` template.
+
+## Alternate Branch Name Idea
+
+- **`0` - blank branch**
+- **`1` [primary] - sharing branch**
+- **`2` - edit branch**
 
 ## How to: Hot Link an Image
 
 Steps to embed an image named `jimi.png` on a website:
+
 1. Open the Repository either in the GitHub client or on the GitHub website.
 2. Add the image to the repo then commit and push it.
 3. Go to the repo on GitHub & switch to the `i` branch
 4. Click the name of the image & copy the image link
 5. On the target page, insert the link the appropriate way and save the file. The Full link is:
    ```bash
-   https://raw.githubusercontent.com/8rents/_/i/jimi.png
+   https://raw.githubusercontent.com/8rents/img/s/jimi.png
    ```
    Which is easy to remember!
    
@@ -60,15 +66,15 @@ Steps to embed an image named `jimi.png` on a website:
 
    - **So the complete URL for the uploaded image would be:**
      ```bash
-     https://raw.githubusercontent.com/8rents/img/share/jimi.png
+     https://raw.githubusercontent.com/8rents/img/s/jimi.png
      ```
 
    - **To embed this with markdown:**
-     ![Jimi](https://raw.githubusercontent.com/8rents/img/share/jimi.png)
+     ![Jimi](https://raw.githubusercontent.com/8rents/img/s/jimi.png)
    - **Embed with HTML:**
      `<img src="https://raw.githubusercontent.com/8rents/img/share/jimi.png" alt="Jimi">`
 
-     ![Jimi](https://raw.githubusercontent.com/8rents/img/share/jimi.png)
+     ![Jimi](https://raw.githubusercontent.com/8rents/img/s/jimi.png)
 
 ## Making a snippet for the URL of the Repo
 
