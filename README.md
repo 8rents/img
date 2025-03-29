@@ -2,7 +2,7 @@
 
 > *This is a repo that's designed to allow public hotlinking of images from GitHub. I don't believe that this is against their TOS so I'm going to keep using it until they tell me to knock it off.*
 >
-> *Note that this is the images (`i`) branch of an older repo (`_`) that was named with an underscore. It was used to share all different file types, with each different file type being stored on a separate branch. The image branch of the `_` repo was called `i`. Since this repo is only going to be used to share images, we'll name the main branch `share`. Conversely we will also have a branch named `private`.*
+> *Note that this is the [images (`i`) branch](https://github.com/8rents/_/tree/i) of an older [repo (`_`) that was named with an underscore](https://github.com/8rents/_). It was used to share all different file types, with each different file type being stored on a separate branch. The image branch of the `_` repo was called `i`. Since this repo is only going to be used to share images, we'll name the main branch `share`. Conversely we will also have a branch named `private`.*
 ---
 
 ## Documentation Table of Contents:
@@ -54,7 +54,7 @@ Steps to embed an image named `jimi.png` on a website:
 4. Click the name of the image & copy the image link
 5. On the target page, insert the link the appropriate way and save the file. The Full link is:
    ```bash
-   https://raw.githubusercontent.com/8rents/img/s/jimi.png
+   https://raw.githubusercontent.com/8rents/img/1/jimi.png
    ```
    Which is easy to remember!
    
@@ -66,28 +66,28 @@ Steps to embed an image named `jimi.png` on a website:
 
    - **So the complete URL for the uploaded image would be:**
      ```bash
-     https://raw.githubusercontent.com/8rents/img/s/jimi.png
+     https://raw.githubusercontent.com/8rents/img/1/jimi.png
      ```
 
    - **To embed this with markdown:**
-     ![Jimi](https://raw.githubusercontent.com/8rents/img/s/jimi.png)
+     ![Jimi](https://raw.githubusercontent.com/8rents/img/1/jimi.png)
    - **Embed with HTML:**
-     `<img src="https://raw.githubusercontent.com/8rents/img/share/jimi.png" alt="Jimi">`
+     `<img src="https://raw.githubusercontent.com/8rents/img/1/jimi.png" alt="Jimi">`
 
-     ![Jimi](https://raw.githubusercontent.com/8rents/img/s/jimi.png)
+     ![Jimi](https://raw.githubusercontent.com/8rents/img/1/jimi.png)
 
 ## Making a snippet for the URL of the Repo
 
 To save your self a lot of time, you can make a snippet for ease of linking uploaded images.
 
-A markdown snippet would look something like this: `![alt](https://raw.githubusercontent.com/8rents/img/share/)` It's up to you to decide how to trigger it, or if you just wan to copy paste it whenever you need it. If you copy / pasted the above snippet you would need to edit it. Here's a good example of how it's done.
+A markdown snippet would look something like this: `![alt](https://raw.githubusercontent.com/8rents/img/1/)` It's up to you to decide how to trigger it, or if you just wan to copy paste it whenever you need it. If you copy / pasted the above snippet you would need to edit it. Here's a good example of how it's done.
 
-`![alt](https://raw.githubusercontent.com/8rents/img/share/)`
+`![alt](https://raw.githubusercontent.com/8rents/img/1/)`
 
 
 First you'd want to edit the `alt` text. This is the text that is displayed if the image isn't displayed. It's also the text served to the visually disabled who can't see images. You should make it descriptive of what the image actualy it. The image in this example is a silkscreen picture of Jimi Hendrix that I use as my account icon. In this case I would make the `alt` text something like `8rent's GitHub account icon`. In a different context I would probably mention that it's a picture of Jimi Hendrix but since it's just my account icon, it makes the most sense to simply say that.
 
-`![`***`8rent's GitHub account icon`***`](https://raw.githubusercontent.com/8rents/img/share/)`
+`![`***`8rent's GitHub account icon`***`](https://raw.githubusercontent.com/8rents/img/1/)`
 
 
 Next I'll want to add the path and the name of the file
@@ -95,7 +95,7 @@ Next I'll want to add the path and the name of the file
 The image is an `account` `icon` of `jimi` hendrix, the size I want is `256` px by 256px and naturally it is a `png` file type.
 
 
-`![8rent's GitHub account icon](https://raw.githubusercontent.com/8rents/img/share/`***`account/icons/jimi/256.png`***`)`
+`![8rent's GitHub account icon](https://raw.githubusercontent.com/8rents/img/1/`***`account/icons/jimi/256.png`***`)`
 
 ## File Guidelines
 
