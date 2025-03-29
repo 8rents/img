@@ -29,7 +29,7 @@ This repo has one primary branch (`s` branch, short for "share") that is used to
 
 ### Primary Branch
 
-- **`s` (share) [primary]** - The main branch used to share & host images publicly so they can be hot linked.
+- **`s` (share) `[primary]`** - The main branch used to share & host images publicly so they can be hot linked.
 
 ### Other Branches
 
@@ -37,12 +37,9 @@ The other two branches which will be much less used than `share` are:
 
 - **`e` (edit)** - A branch that is used to host host all edit filetypes like `.psd` files or `.ai` files
 - **`b` (blank)** - A tempalte branch that is used to create new blank branches. Contains only a `README.md` template.
-
-## Alternate Branch Name Idea
-
-- **`0` - blank branch**
-- **`1` [primary] - sharing branch**
-- **`2` - edit branch**
+- **`p` (private)** - A private branch that will allow storing images in the repo but not hot linking them.**
+  
+---
 
 ## How to: Hot Link an Image
 
