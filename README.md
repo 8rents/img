@@ -1,5 +1,7 @@
 # img `GH Image Share`
 
+__Branch:__ `share`
+
 > *This is a repo that's designed to allow public hotlinking of images from GitHub. I don't believe that this is against their TOS so I'm going to keep using it until they tell me to knock it off.*
 >
 > *Note that this is the [images (`i`) branch](https://github.com/8rents/_/tree/i) of an older [repo (`_`) that was named with an underscore](https://github.com/8rents/_). It was used to share all different file types, with each different file type being stored on a separate branch. The image branch of the `_` repo was called `i`. Since this repo is only going to be used to share images, we'll name the main branch `share`. Conversely we will also have a branch named `private`.*
